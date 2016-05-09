@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.divinaphpsql">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        .
+        <activity android:name=".FormCreateLoginActivity" />
+        <activity android:name=".AudioActivity" />
+        <activity android:name=".SeleccionModuloActivity" />
+        <activity android:name=".CapituloPHPActivity" />
+        <activity android:name=".CapituloMySQLActivity" />
+        <activity android:name=".CapituloPHPMySQLActivity" />
+        <activity android:name=".FormLoginActivity" />
+        <activity android:name=".DesarrolladorActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".Display" />
+        <activity android:name=".GraficaMenuActiviry" />
+        <activity android:name=".examen.php.PHPQuestion" />
+        <activity android:name=".examen.phpmysql.PHMyQuestion" />
+        <activity android:name=".examen.mysql.MySQLQuestion" />
+        <activity android:name=".InformacionPHP" />
+        <activity android:name=".InformacionMySQL" />
+        <activity android:name=".InformacionPHPMySQL" />
+        <activity android:name=".MailActivity" />
+        <activity android:name=".estrategia.Manager" />
+        <activity android:name=".CamaraActivity" />
+        <activity android:name=".GatoActivity" />
+        <activity android:name=".galerias.GaleriaTresActivity" />
+        <activity
+            android:name=".TemaActivity"
+            android:label="@string/title_activity_tema"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SelectVideoActivity" />
+        <activity
+            android:name=".ConfiguracionActivity"
+            android:label="@string/title_activity_configuracion" />
+        <activity android:name=".galerias.GaleryActivity" />
+        <activity android:name=".CalculadoraActivity" />
+        <activity android:name=".ChronometerActivity" />
+        <activity android:name=".UtileriasActivity" />
+        <activity android:name=".GaleriasActivity" />
+        <activity android:name=".galerias.GaleryUTNGActivity" />
+        <activity android:name=".StreamingMp3Player" />
+        <activity android:name=".EjemploRadioActivity" />
+        <activity android:name=".PaginaInformacionActivity" />
+        <activity android:name=".EjemploPaginaWebActivity" />
+        <activity android:name=".ahorcado.JuegoActivity" />
+        <activity android:name=".ahorcado.MainAhorcado" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>

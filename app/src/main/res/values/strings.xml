@@ -1,0 +1,497 @@
+<resources>
+    <string name="app_name">Curso PHP MySQL</string>
+    <string name="title_ruby">PHP MySQL</string>
+    <string name="form_btn_mas_tarde">Mas Tarde</string>
+    <string name="form_btn_ingresar">Ingresar</string>
+    <string name="form_btn_crear_cuenta">Crear Cuenta</string>
+
+    <string-array name="item_menu_principal">
+        <!--Temas -->
+        <item>PHP</item>
+        <item>MySQL</item>
+        <item>PHP y su Relación con MySQL</item>
+
+    </string-array>
+
+    <string-array name="item_menu_secundario_dificultad">
+        <!--Dificultad-->
+        <item>Capitulo 1.0</item>
+        <item>Capitulo 1.2</item>
+        <item>Capitulo 1.3</item>
+    </string-array>
+
+
+    <string-array name="item_menu_secundario_facil_php">
+        <!--Temas   *-  PHP  -* facil  -->
+        <item>¿Que es PHP?</item>
+        <item>Comentarios en PHP</item>
+        <item>Variables y Constantes</item>
+
+
+    </string-array>
+
+
+    <string-array name="item_menu_secundario_medio_php">
+        <!--Temas   *-PHP-* medio  -->
+        <item>Operadores de comparación</item>
+        <item>Operadores lógicos</item>
+        <item>Operadores de union de cadenas</item>
+
+
+    </string-array>
+    <string-array name="item_menu_secundario_dificil_php">
+        <!--Temas   *-PHP-* dificil  -->
+        <item>Funciones</item>
+        <item>Ficheros</item>
+        <item>Directorios</item>
+
+
+    </string-array>
+
+    <!--      ***  Temas MySQL  ***     -->
+
+    <string-array name="item_menu_secundario_facil_mysql">
+        <!--Temas   *-MySQL-* facil  -->
+        <item>¿Que es MySQL?</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_medio_mysql">
+        <!--Temas   *-MySQL-* medio  -->
+        <item>Crear una Base de Datos</item>
+        <item>Crear una tabla</item>
+        <item>Insertar datos</item>
+    </string-array>
+
+    <string-array name="item_menu_secundario_dificil_mysql">
+        <!--Temas   *-MySQL-* dificil  -->
+        <item>Borrar datos de una tabla</item>
+        <item>Borrar una tabla</item>
+        <item>Borrar una base de datos</item>
+    </string-array>
+
+
+    <!--      ***  Temas PHP MySQL  ***     -->
+
+    <string-array name="item_menu_secundario_facil_php_mysql">
+        <!--Temas   *-PHP   y   MySQL-* facil  -->
+        <item>La convinacion de PHP y MySQL</item>
+        <item></item>
+        <item>Sintaxis Basica</item>
+    </string-array>
+
+
+    <string-array name="item_menu_secundario_medio_php_mysql">
+        <!--Temas   *-PHP   y   MySQL-* medio  -->
+        <item>Conexion a la Base de datos</item>
+        <item>Uso de una base de datos MySQL desde PHP</item>
+        <item>SQL select</item>
+
+    </string-array>
+    <string-array name="item_menu_secundario_dificil_php_mysql">
+        <!--Temas   *-PHP   y   MySQL-* dificil  -->
+        <item>SQL select</item>
+        <item>SQL insert</item>
+        <item>SQL delete</item>
+
+
+    </string-array>
+
+
+    <string-array name="item_menu_secundario_modulo4">
+        <item>Examen Final</item>
+    </string-array>
+
+
+    <string name="login_valido">Mari</string>
+    <string name="clave_valida">12</string>
+    <string name="error_autenticar">Error en los datos</string>
+    <string name="title_create_login_registro">Registro</string>
+    <string name="datos_guardados_correctamente">"Los datos se guardaron correctamente"</string>
+    <string name="btn_create_guardar">Guardar</string>
+    <string name="btn_create_cancelar">Cancelar</string>
+    <string name="title_login">Login</string>
+    <string name="nuevo_registro">Nuevo Registro</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="acceder">Acceder</string>
+    <string name="crear_cuenta">Crear una cuenta</string>
+    <string name="mas_tarde">Aceptar</string>
+    <string name="aceptar">Mas tarde</string>
+    <string name="phpmsql">Curso PHP y MySQL</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="universidad">Universidad</string>
+    <string name="asignatura">Asignatura</string>
+    <string name="video">video</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="emptyString">empyty</string>
+    <string name="musica">Musica de Fondo</string>
+    <string name="videoo">Video</string>
+    <string name="salir">Salir</string>
+    <string name="sugerencias">Sugerencias</string>
+    <string name="progreso_curso">Progreso del curso</string>
+    <string name="universidad2">Universidad</string>
+    <string name="asigatura">Asignatura</string>
+    <string name="desarrollo">Desarrollador</string>
+    <string name="configuracion">Configuración</string>
+    <string name="salir1">Salir</string>
+    <string name="sugerencisa">Sugerencias</string>
+    <string name="grafica">grafica</string>
+    <string name="menu_bar_grafica_on">Grafica</string>
+    <string name="teme">Temas</string>
+
+
+    <string-array name="temas_dificltad_facil_mySQl">
+        <item>Creando una base de Datos</item>
+        <item>Creando una Tabla</item>
+        <item>Tipo de Datos</item>
+        <item>Eliminar una Tabla</item>
+        <item>Variables</item>
+        <item>constantes</item>
+
+    </string-array>
+
+    <string-array name="temas_dificltad_medio_mySQl">
+        <item>Creando una base de Datos</item>
+        <item>Creando una Tabla</item>
+        <item>Tipo de Datos</item>
+        <item>Eliminar una Tabla</item>
+        <item>Variables</item>
+        <item>constantes</item>
+
+    </string-array>
+
+    <string-array name="temas_dificltad_dificil_mySQl">
+        <item>Creando una base de Datos</item>
+        <item>Creando una Tabla</item>
+        <item>Tipo de Datos</item>
+        <item>Eliminar una Tabla</item>
+        <item>Variables</item>
+        <item>constantes</item>
+    </string-array>
+
+
+    <string-array name="temas_dificltad_facil_php">
+        <item>Introduccion</item>
+        <item>Variables</item>
+        <item>Constantes</item>
+        <item>Borrar un Registro en PHP</item>
+
+
+    </string-array>
+
+    <string-array name="temas_dificltad_medio_php">
+        <item>Operadores</item>
+        <item>Creando una Tabla</item>
+        <item>Tablas y Arrays</item>
+        <item>Cadenas</item>
+
+
+    </string-array>
+
+    <string-array name="temas_dificltad_dificil_php">
+        <item>Funciones </item>
+        <item>Control de Flujo</item>
+        <item>Base de Datos en PHP</item>
+        <item>Eliminar una Tabla</item>
+        <item>Programacion Orientada a objetos en PHP</item>
+
+
+    </string-array>
+
+
+    <string-array name="temas_dificltad_facil_mySQl_php">
+        <item>Introduccion</item>
+        <item>Creando una Tabla</item>
+        <item>Insertar datos en una tabla</item>
+
+
+    </string-array>
+
+    <string-array name="temas_dificltad_medio_mySQl_php">
+        <item>Creando una base de Datos</item>
+        <item>Conectar a una Base da Datos</item>
+        <item>Tipo de Datos</item>
+        <item>Eliminar una Tabla</item>
+        <item>Variables</item>
+        <item>constantes</item>
+
+    </string-array>
+
+    <string-array name="temas_dificltad_dificil_mySQl_php">
+        <item>Introduccion</item>
+        <item>Conectar a una Base de Datos</item>
+
+    </string-array>
+    <string name="title_activity_tema">TemaActivity</string>
+
+    <!--Informacion contenida en los temas-->
+
+    <string name="capitulo_queesphp">¿Qué es PHP?</string>
+    <string name="informacion_queesphp">
+        "Es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML."
+        "\nEjemplo:"
+        "\n\n&lt;!DOCTYPE HTML&gt;"
+            "\n\t&lt;html&gt;"
+                "\n\t\t&lt;head&gt;"
+                    "\n\t\t\t&lt;title&gt;Ejemplo&lt;/title&gt;"
+                "\n\t\t&lt;/head&gt;"
+            "\n\t&lt;body&gt;"
+                "\n\t\t&lt;?php"
+                    "\n\t\t\techo \"¡Hola, soy un script de PHP!\";"
+                "\n\t\t?&gt;"
+            "\n\t&lt;/body&gt;"
+            "\n\t&lt;/html&gt;"
+        "\n\nEn lugar de usar muchos comandos para mostrar HTML (como en C o en Perl), las páginas de PHP contienen HTML con código incrustado que hace \"algo\" (en este caso, mostrar \"¡Hola, soy un script de PHP!\"). El código de PHP está encerrado entre las etiquetas especiales de comienzo y final &lt;?php y ?&gt; que permiten entrar y salir del \"modo PHP\"."
+        "\n\nLo que distingue a PHP de algo del lado del cliente como Javascript es que el
+        código es ejecutado en el servidor, generando HTML y enviándolo al cliente. El cliente recibirá el resultado de ejecutar el script, aunque no se sabrá el código subyacente que era. El servidor web puede ser configurado incluso para que procese todos los ficheros HTML con PHP, por lo que no hay manera de que los usuarios puedan saber qué se tiene debajo de la manga."
+    </string>
+    <string name="capitulo_quehacephp">¿Qué puede hacer PHP?</string>
+    <string name="informacion_quehacephp"> Cualquier cosa. PHP está enfocado principalmente a la programación de scripts del lado del servidor, por lo que se puede hacer cualquier cosa que pueda hacer otro programa CGI, como recopilar datos de formularios, generar páginas con contenidos dinámicos, o enviar y recibir cookies. Aunque PHP puede hacer mucho más.
+        \n\nExisten principalmente tres campos principales donde se usan scripts de PHP.
+
+    \n\nO Scripts del lado del servidor. Este es el campo más tradicional y el foco principal. Son necesarias tres cosas para que esto funcione. El analizador de PHP (módulo CGI o servidor), un servidor web y un navegador web. Es necesario ejecutar el servidor con una instalación de PHP conectada. Se puede acceder al resultado del programa de PHP con un navegador, viendo la página de PHP a través del servidor. Todo esto se puede ejecutar en su máquina si está experimentado con la programación de PHP.
+    \nO Scripts desde la línea de comandos. Se puede crear un script de PHP y ejecutarlo sin necesidad de un servidor o navegador. Solamente es necesario el analizador de PHP para utilizarlo de esta manera. Este tipo de uso es ideal para scripts que se ejecuten con regularidad empleando cron (en *nix o Linux) o el Planificador de tareas (en Windows). Estos scripts también pueden usarse para tareas simples de procesamiento de texto.
+    \nO Escribir aplicaciones de escritorio. Probablemente PHP no sea el lenguaje más apropiado para crear aplicaciones de escritorio con una interfaz gráfica de usuario, pero si se conoce bien PHP, y se quisiera utilizar algunas características avanzadas de PHP en aplicaciones del lado del cliente, se puede utilizar PHP-GTK para escribir dichos programas. También es posible de esta manera escribir aplicaciones independientes de una plataforma. PHP-GTK es una extensión de PHP, no disponible en la distribución principal.
+</string>
+    <string name="capitulo_dondeseemplea">¿Donde puede emplearse?</string>
+    <string name="informacion_dondeseemplea"> PHP puede emplearse en todos los sistemas operativos principales, incluyendo Linux, muchas variantes de Unix (incluyendo HP-UX, Solaris y OpenBSD), Microsoft Windows, Mac OS X, RISC OS y probablemente otros más. PHP admite la mayoría de servidores web de hoy en día, incluyendo Apache, IIS, y muchos otros. Esto incluye cualquier servidor web que pueda utilizar el binario de PHP FastCGI, como lighttpd y nginx. PHP funciona tanto como módulo como procesador de CGI.
+        \n\nDe modo que con PHP, se tiene la libertad de elegir el sistema operativo y el servidor web. Además, se tiene la posibilidad de utilizar programación por procedimientos o programación orientada a objetos (POO), o una mezcla de ambas. </string>
+
+
+    <!--informacion de MySQL-->
+    <string name="capitulo_queesmysql">¿Que es MySQL?</string>
+    <string name="informacion_queesmysql"> MySQL es un sistema de administración de bases de datos (Database Management System, DBMS) para bases de datos relacionales. Así, MySQL no es más que una aplicación que permite gestionar archivos llamados de bases de datos.
+\n\nExisten muchos tipos de bases de datos, desde un simple archivo hasta sistemas relacionales orientados a objetos. MySQL, como base de datos relacional, utiliza multiples tablas para almacenar y organizar la información. MySQL fue escrito en C y C++ y destaca por su gran adaptación a diferentes entornos de desarrollo, permitiendo su interactuación con los lenguajes de programación más utilizados como PHP, Perl y Java y su integración en distintos sistemas operativos.
+\n\nTambién es muy destacable, la condición de open source de MySQL, que hace que su utilización sea gratuita e incluso se pueda modificar con total libertad, pudiendo descargar su código fuente. Esto ha favorecido muy positivamente en su desarrollo y continuas actualizaciones, para hacer de MySQL una de las herramientas más utilizadas por los programadores orientados a Internet.</string>
+
+    <string name="capitulo_porquemysql">¿Por qué usar MySQL?</string>
+    <string name="informacion_porquemysql"> El servidor de bases de datos MySQL es muy rápido, seguro, y fácil de usar. Si eso es lo que se está buscando, se le debe dar una oportunidad a MySQL. Se pueden encontrar comparaciones de desempeño con algunos otros manejadores de bases de datos en la página de MySQL.
+\n\nEl servidor MySQL fue desarrollado originalmente para manejar grandes bases de datos mucho más rápido que las soluciones existentes y ha estado siendo usado exitosamente en ambientes de producción sumamente exigentes por varios años. Aunque se encuentra en desarrollo constante, el servidor MySQL ofrece hoy un conjunto rico y útil de funciones. Su conectividad, velocidad, y seguridad hacen de MySQL un servidor bastante apropiado para accesar a bases de datos en Internet.
+\n\nAlgunos detalles técnicos de MySQL
+\n\nEl software de bases de datos MySQL consiste de un sistema cliente/servidor que se compone de un servidor SQL multihilo, varios programas clientes y bibliotecas, herramientas administrativas, y una gran variedad de interfaces de programación (APIs). Se puede obtener también como una biblioteca multihilo que se puede enlazar dentro de otras aplicaciones para obtener un producto más pequeño, más rápido, y más fácil de manejar. Para obtener información técnica más detallada, es necesario consultar la guía de referencia de MySQL.
+</string>
+    <string name="capitulo_sentenciasmysql">Sentencias basicas:</string>
+    <string name="informacion_sentenciasmysql">Listado de sentencias básicas en SQL
+    \no SELECT se utiliza para consultar datos.
+    \no DISTINCT sirve para eliminar los duplicados de las consultas de datos.
+    \no WHERE se utiliza incluir las condiciones de los datos que queremos consultar.
+    \no AND y OR se utilizan para incluir 2 o más condiciones a una consulta.
+    \no ORDER BY se utiliza para ordenar los resultados de una consulta.
+    \no INSERT se utiliza para insertar datos.
+    \no UPDATE se utiliza actualizar o modificar datos ya existentes.
+    \no DELETE se utiliza borrar datos.
+        \n\nSintaxis de la Sentencia SELECT 1
+        SELECT column_name,column_name
+        FROM table_name;
+        \n\nSintaxis de la sentencia SQL WHERE
+
+        \n\nSELECT column_name,column_name
+        FROM table_name
+        WHERE column_name operator value;
+
+        \n\nSintaxis de la claúsula SQL ORDER BY
+
+        \n\nSELECT column_name,column_name
+        FROM table_name
+        ORDER BY column_name,column_name ASC|DESC;
+
+</string>
+
+
+    <!--Informacion PHP y MySQL-->
+
+
+    <string name="capitulo_queesphpymysql">La combinación de PHP y MySQL</string>
+    <string name="informacion_queesphpymysql">
+        "La combinación del lenguaje PHP junto con la base de datos MySQL es utilizada en un gran numero de paginas web que podemos
+        encontrar mientras navegamos por interner, PHP es un lenguaje de programación de páginas web muy potente y muy extenso pero su uso sin una base de datos
+        y mas en concreto  de la base de datos MySQL, seria desaprovechar muchas de las posibilidades que nos ofrece este lenguaje"
+
+        "\n\nUna de las características más importantes de la programación en PHP es su integración con diversos motores de base de datos.
+        PHP está construido para generar en forma sencilla páginas web dinámicas a partir de información almacenada en bases de datos."
+        "\n\n."
+       </string>
+
+    <string name="capitulo_dondeseempleaphmysql">Conectando con una Base de datos</string>
+    <string name="informacion_dondeseempleaphmysql"> Para conectar desde PHP a una base de datos creada en MySQL se utilizara la instrucción mysql_connect (),
+        a la que le debemos acompañar tres parametros: el primero de ellos es determinar el host al que nos conectamos, y luego le indicaremos el nombre de usuario y la contraseña,
+        si alguno de estos datos no se introduce  de manera correcta no podremos conectarnos a la base de datos.
+
+         "\n\n$host ="127.0.0.1""
+         "\n\n$usuario ="user"///Cambiar por su nombre de usuario"
+         "\n\n$password ="pass"///Cambiar por su password"
+         "\n\n$conectar =mysql_connect($host,$usuario,$password);"
+
+
+
+    \n\nO La función realiza la conexión a la base de datos Mysql y devuelve “false” si hubo algún error en la conexión o un link a la conexión a la base en caso de que la conexión sea exitosa.
+    \nO El link es un número que indica la sesión dentro del servidor de base de datos MySql. Para finalizar la conexión se debe utilizar la función
+        mysql_close(). Es muy importante cerrar la conexión a la base de datos mysql una vez finalizadas las transacciones para evitar la sobrecarga
+        en el motor de la base de datos.
+
+    </string>
+    <string name="capitulo_quehacephpmysql">Otras funciónes php para base de datos Mysql</string>
+    <string name="informacion_quehacephpmysq">
+         result=mysql_create_db(database_name,db_link)Crea una base de datos con el nombre indicado, devuelve true o false según el resultado.
+
+       "\n\nResult=mysql_data_seek(result_set, position)"
+
+       "\n\nMueve el puntero interno de cada result set a la posición indicada (el primer registro es la posición 0), de esta forma la próxima llamada a mysql_fetch_row o mysql_fetch_array devolvera el registro que se acaba de apuntar.
+
+        Devuelve true o false.Result=mysql_db_query(database_name, query,db_link)"
+       "\n\nRealiza una consulta a una base indicada, es obviamente reemplazable por un mysql_select_db y un mysql_query aunque resulta útil si hay que consultar tablas en varias bases distintas. Result=mysql_drop_db(database_name,db_link)"
+       "\n\nObject=mysql_fetch_field(result_set, numero_columna)"
+       "\n\nDevuelve un objeto con información sobre la columna indicada de un result set (0 es la primera columna, 1 la segunda, etc).
+        Las propiedades que se setean en el objeto son:"
+       "\n\nname – nombre de la columna"
+       "\n\ntable – nombre de la tabla"
+       "\n\nmax_length – longitud maxima de la columna"
+       "\n\nnot_null – 1 si la columna no puede ser null"
+       "\n\nprimary_key – 1 si la columna es primary key unique_key – 1 si la columna es unique key"
+       "\n\nmultiple_key – 1 si la columna no es unique"
+       "\n\nkey numeric – 1 si la columna es numerica"
+       "\n\nblob – 1 si la columna es un BLOB"
+       "\n\ntype – Tipo de la columna"
+       "\n\nunsigned – 1 si la columna es sin signo"
+       "\n\nzerofill – 1 si la columna es zero-filled object=mysql_fetch_object(result_set)"
+       "\n\nSimilar a mysql_fetch_array con la diferencia de que los resultados se devuelven en un vector en lugar de un vector asociativo. Luego se puede acceder a las distintas columnas del registro devuelto como propiedades (data_members) del objeto devuelto.int=mysql_num_fields(result_set)
+        Devuelve el numero de columnas en un result set."
+       "\n\n"
+       "\n\n"
+
+
+
+</string>
+
+
+    <string name="title_activity_configuracion">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="intent">"Intento(s) "</string>
+    <string-array name="type">
+        <item>Nuevo Juego</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+    <string name="testsong_20_sec">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="orientation">landscape</string>
+
+
+
+
+    <string-array name="arrayPalabras">
+        <item>select</item>
+        <item>into</item>
+        <item>table</item>
+        <item>insert</item>
+        <item>update</item>
+        <item>int</item>
+        <item>string</item>
+        <item>mysql</item>
+    </string-array>
+
+
+
+
+    <string name="informacion_desarrolladora">
+        <![CDATA[
+            <div>
+              <div>
+                 <p>
+                  <font color="#000000">
+                     <b>Nombre:</b> Maria Divina Macias Aranda. <br /><br />
+                     <b>Correo:</b> mmariadma&#64;gmail.com <br /><br />
+                     <b>Universidad:</b> Universidad Tecnológica del Norte de Guanajuato. <br /><br />
+                     <b>Título:</b> TSU en Sistemas informáticos. <br /><br />
+                     <b>Carrera:</b> Tecnología de la Información Área Sistemas Informáticos. <br /><br />
+                     <b>Materia:</b> Desarrollo de Aplicaciónes III. <br /><br />
+                     <b>Ubicación:</b> Dolores Hidalgo. <br /><br />
+                  </font>
+                 </p>
+              </div>
+           </div>
+        ]]>
+    </string>
+
+    <string name="informacion_pagina">
+        Información para aspirantes a la UTNG
+        \n\nModalidad de Estudio Escolarizado: 6 cuatrimestres, clases de lunes a viernes de 8:00 a 16:00hrs.
+        Semiescolarizado: 9 cuatrimestres, clases viernes de 16:00 a 22:00hrs y sábado de 8:00 a 15:00hrs
+        \n\nNota: Es importante que conserves copia de tu documentación ya que se resguardara en la Institución y te será entregada hasta que culmines tu formación profesional.
+        \n\nPeriodo de venta de fichas y registro en línea con sistema de CENEVAL del 4 de febrero al 8 de julio de 2016.
+        \n\nProceso de Admisión Paso1. Pre-registro en línea. Ingresa a siga.utng.edu.mx da clic en pre-registro.
+        \n\nRegistra la información solicitada mayúsculas y sin acentos. (CURP INDISPENSABLE) Paso 2: Pago por derecho a examen de admisión Realizar el pago de la ficha por $ 250.00 en el área de caja ubicada en el edificio de R (Rectoría).
+        \n\nPaso 3: Registro en UTNG y entrega de documentos. Acude a Servicios Escolares edificio V con los siguientes documentos:
+        \n\nRequisitos para aspirantes que cursan el bachillerato durante el ciclo escolar actual 2015-2016:
+        \n\nCopia del acta de nacimiento. Constancia de estudios con promedio.
+        \n\nCopia de la clave CURP. 2 Fotografías tamaño infantil.
+        \n\nComprobante de pago por derecho a examen de admisión.
+        \n\nConstancia laboral para alumnos que soliciten la modalidad semiescolarizada.
+        \n\nRequisitos para aspirantes que terminaron el bachillerato en el ciclo 2014 - 2015 o anteriores:
+        \n\nCopia del acta de nacimiento. Copia del certificado de bachillerato. Copia de la clave CURP. 2 Fotografías tamaño infantil.
+        \n\nComprobante de pago por derecho a examen de admisión. Constancia laboral para alumnos que soliciten la modalidad semiescolarizada.
+        \n\nNota: la solicitud de ficha será expedida sin excepción alguna solo a aquellos aspirantes que cumplan con los requisitos solicitados.</string>
+</resources>

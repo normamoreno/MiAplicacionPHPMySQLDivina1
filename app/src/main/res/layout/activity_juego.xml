@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Letra"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/letra"
+        android:layout_toStartOf="@+id/letra"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="35dp"
+        android:maxLength="1"
+        android:id="@+id/letra"
+        android:layout_alignBottom="@+id/btn_intro"
+        android:layout_centerHorizontal="true"
+
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intro"
+        android:id="@+id/btn_intro"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/letra"
+        android:layout_toEndOf="@+id/letra"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn_intro"
+        android:id="@+id/juego_v_juego"/>
+</RelativeLayout>
